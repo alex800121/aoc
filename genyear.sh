@@ -8,6 +8,6 @@ for i in {1..25}; do
   echo '' >> Day$i.hs
   echo 'day'$i' :: IO ()' >> Day$i.hs
   echo 'day'$i' = do' >> Day$i.hs
-  echo '  -- input <- (getDataDir >>= readFile (++ "/input/input'$i'.txt"))' >> Day$i.hs
+  echo '  -- input <- (getDataDir >>= readFile . (++ "/input/input'$i'.txt"))' >> Day$i.hs
   echo '  return ()' >> Day$i.hs
 done
