@@ -16,12 +16,12 @@ import Data.Ix (Ix (..))
 import Data.List (delete, elemIndex, findIndex, foldl', group, nub, tails, uncons)
 import Data.List.Split (chunksOf)
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Data.Maybe (fromJust, fromMaybe, mapMaybe, maybeToList)
 import Data.Proxy (Proxy (..))
-import Data.Sequence qualified as S
+import qualified Data.Sequence as S
 import Data.Set (Set)
-import Data.Set qualified as Set
+import qualified Data.Set as Set
 import Data.Void (Void)
 import Debug.Trace
 import Text.Megaparsec
@@ -115,7 +115,7 @@ firstCycle = g 0 []
     g _ _ [] = Nothing
     g i s (x : xs) = case elemIndex x s of
       Nothing -> g (i + 1) (x : s) xs
-      Just y -> Just (i - y - 1, i, x)
+      Just y -> Just (y + 1, i - y - 1, x)
 
 firstCycle' :: (Ord a) => [a] -> Maybe (Int, Int, a)
 firstCycle' = g 0 Map.empty
@@ -333,7 +333,7 @@ instance (Show a) => Show (Vec n a) where
   show Nil = "<>"
   show (Cons x xs) = '<' : show x ++ show' xs
     where
-      show' :: forall n. (Show a) => Vec n a -> String
+      show' :: (Show a) => Vec n a -> String
       show' Nil = ">"
       show' (Cons y ys) = ',' : show y ++ show' ys
 
