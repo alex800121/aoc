@@ -8,7 +8,7 @@
 
 module MyLib where
 
-import Control.Lens hiding (uncons)
+import Control.Lens
 import Control.Monad (guard, mplus)
 import Data.Array.IArray (IArray, array)
 import Data.Bits (Bits (..), FiniteBits (..), xor)
@@ -18,24 +18,17 @@ import Data.Ix (Ix (..))
 import Data.List (delete, elemIndex, findIndex, foldl', group, nub, tails, uncons)
 import Data.List.Split (chunksOf)
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Data.Maybe (fromJust, fromMaybe, mapMaybe, maybeToList)
 import Data.Proxy (Proxy (..))
-import Data.Sequence qualified as S
+import qualified Data.Sequence as S
 import Data.Set (Set)
-import Data.Set qualified as Set
+import qualified Data.Set as Set
 import Data.Void (Void)
 import Debug.Trace
-import GHC.IsList (IsList, Item (..))
 import Text.Megaparsec
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
-
-calcLargeCycleN :: ([a] -> Maybe (Int, Int, a)) -> Int -> [a] -> Maybe a
-calcLargeCycleN f n xs = case f xs of
-  Nothing -> Nothing
-  Just (_, i, _) | n <= i -> Just $ xs !! n
-  Just (c, i, a) -> let n' = ((n - i) `mod` c) + i in Just $ xs !! n'
 
 drawASCII :: (Integral a) => [a] -> String
 drawASCII = map (chr . fromIntegral)
@@ -141,7 +134,7 @@ firstCycle = g 0 []
     g _ _ [] = Nothing
     g i s (x : xs) = case elemIndex x s of
       Nothing -> g (i + 1) (x : s) xs
-      Just y -> Just (i - y - 1, i, x)
+      Just y -> Just (y + 1, i - y - 1, x)
 
 firstCycle' :: (Ord a) => [a] -> Maybe (Int, Int, a)
 firstCycle' = g 0 Map.empty
@@ -150,6 +143,12 @@ firstCycle' = g 0 Map.empty
     g i s (x : xs) = case s Map.!? x of
       Nothing -> g (i + 1) (Map.insert x i s) xs
       Just y -> Just (i - y, y, x)
+
+calcLargeCycleN :: ([a] -> Maybe (Int, Int, a)) -> Int -> [a] -> Maybe a
+calcLargeCycleN f n xs = case f xs of
+  Nothing -> Nothing
+  Just (_, i, _) | n <= i -> Just $ xs !! n
+  Just (c, i, a) -> let n' = ((n - i) `mod` c) + i in Just $ xs !! n'
 
 firstRepeat' :: (Ord a) => [a] -> Maybe (Int, a)
 firstRepeat' = g 0 Set.empty
@@ -213,7 +212,7 @@ knotHash s =
         where
           l = zip [0 ..] i
       process :: S.Seq Int -> String
-      process = map intToDigit . concatMap ((\x -> [x `div` 16, x `mod` 16]) . foldl1 xor) . chunksOf 16 . Data.Foldable.toList
+      process = map intToDigit . concatMap ((\x -> [x `div` 16, x `mod` 16]) . foldl1 xor) . chunksOf 16 . toList
       l = map ord s ++ inputSuffix
       list = take (length l * 64) $ cycle l
       k = run list initSeq
@@ -297,7 +296,7 @@ sumVariants target choices
   | target == 0 = [[]]
   | target /= 0 && null choices = []
   | otherwise = do
-      (a : t) <- init $ tails $ choices
+      (a : t) <- init $ tails choices
       b <- sumVariants (target - a) t
       return (a : b)
 
@@ -315,11 +314,9 @@ primeFactors' :: (Integral a) => a -> [(Int, a)]
 primeFactors' = map ((,) <$> length <*> head) . group . primeFactors
 
 factors :: (Integral a) => a -> [a]
-factors x =
-  let p = primeFactors' x
-      f [] = [1]
-      f ((n, a) : xs) = (*) <$> map (a ^) [0 .. n] <*> f xs
-   in f p
+factors x = nub $ concat $ [[a, b] | a <- [1 .. y], let (b, m) = x `divMod` a, m == 0]
+  where
+    y = sqrtCeiling x
 
 sqrtCeiling :: (Integral a) => a -> a
 sqrtCeiling = ceiling . sqrt . fromIntegral
@@ -362,7 +359,7 @@ instance (Show a) => Show (Vec n a) where
   show Nil = "<>"
   show (Cons x xs) = '<' : show x ++ show' xs
     where
-      show' :: forall n. (Show a) => Vec n a -> String
+      show' :: (Show a) => Vec n a -> String
       show' Nil = ">"
       show' (Cons y ys) = ',' : show y ++ show' ys
 
@@ -395,17 +392,6 @@ instance (Num a, Num (Vec n a), Applicative (Vec n)) => Num (Vec ('S n) a) where
   signum (Cons x xs) = Cons (signum x) (signum xs)
   fromInteger = pure . fromInteger
   negate (Cons x xs) = Cons (negate x) (negate xs)
-
-instance IsList (Vec Z a) where
-  type Item (Vec Z a) = a
-  fromList _ = Nil
-  toList _ = []
-
-instance (Item (Vec n a) ~ a, IsList (Vec n a)) => IsList (Vec (S n) a) where
-  type Item (Vec (S n) a) = a
-  fromList (x : xs) = Cons x (fromList xs)
-  fromList [] = error "The list ran out of items"
-  toList (Cons x xs) = x : GHC.IsList.toList xs
 
 manhattan :: (Num a) => Vec n a -> a
 manhattan = sum . fmap abs
@@ -477,7 +463,7 @@ pick :: Int -> [a] -> [[a]]
 pick n l
   | n <= 0 = pure []
   | otherwise = do
-      (x, xs) <- mapMaybe uncons $ tails l
+      (x, xs) <- mapMaybe Data.List.uncons $ tails l
       (x :) <$> pick (n - 1) xs
 
 extEuc :: (Integral a) => a -> a -> (a, a, a)
