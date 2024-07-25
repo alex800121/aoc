@@ -29,6 +29,7 @@ import Debug.Trace
 import Text.Megaparsec
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
+import GHC.IsList (Item(..), IsList)
 
 calcLargeCycleN :: ([a] -> Maybe (Int, Int, a)) -> Int -> [a] -> Maybe a
 calcLargeCycleN f n xs = case f xs of
@@ -379,6 +380,16 @@ instance (Num a, Num (Vec n a), Applicative (Vec n)) => Num (Vec ('S n) a) where
   signum (Cons x xs) = Cons (signum x) (signum xs)
   fromInteger = pure . fromInteger
   negate (Cons x xs) = Cons (negate x) (negate xs)
+instance IsList (Vec Z a) where
+  type Item (Vec Z a) = a
+  fromList _ = Nil
+  toList _ = []
+
+instance (Item (Vec n a) ~ a, IsList (Vec n a)) => IsList (Vec (S n) a) where
+  type Item (Vec (S n) a) = a
+  fromList (x : xs) = Cons x (fromList xs)
+  fromList [] = error "The list ran out of items"
+  toList (Cons x xs) = x : GHC.IsList.toList xs
 
 manhattan :: (Num a) => Vec n a -> a
 manhattan = sum . fmap abs
