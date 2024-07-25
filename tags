@@ -1719,6 +1719,7 @@ PackageInfo_AOC	/home/alex800121/haskell/aoc/2023/dist-newstyle/build/aarch64-li
 PackageInfo_AOC	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	4;"	m
 PackageInfo_AOC	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/x/AOC/build/AOC/autogen/PackageInfo_AOC.hs	4;"	m
 PackageInfo_AOC	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	4;"	m
+PackageInfo_AOC2021	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	4;"	m
 PackageInfo_AOC2022	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	4;"	m
 PackageInfo_AOC2022	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	4;"	m
 PackageInfo_AOC2022	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	4;"	m
@@ -1777,6 +1778,7 @@ Paths_AOC	/home/alex800121/haskell/aoc/2023/dist-newstyle/build/aarch64-linux/gh
 Paths_AOC	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	8;"	m
 Paths_AOC	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/x/AOC/build/AOC/autogen/Paths_AOC.hs	8;"	m
 Paths_AOC	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	8;"	m
+Paths_AOC2021	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	8;"	m
 Paths_AOC2022	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	8;"	m
 Paths_AOC2022	/home/alex800121/haskell/aoc/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	8;"	m
 Paths_AOC2022	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	8;"	m
@@ -2924,6 +2926,7 @@ bindir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/bu
 bindir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 bindir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 bindir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+bindir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 bindir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 bindir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 bindir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -3120,6 +3123,7 @@ catchIO	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/b
 catchIO	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	25;"	f
 catchIO	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	25;"	f
 catchIO	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	25;"	f
+catchIO	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	25;"	f
 catchIO	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	25;"	f
 catchIO	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	25;"	f
 catchIO	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	25;"	f
@@ -3214,6 +3218,7 @@ copyright	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC
 copyright	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	22;"	f
 copyright	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2023.hs	22;"	f
 copyright	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	22;"	f
+copyright	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	22;"	f
 copyright	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	22;"	f
 copyright	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	22;"	f
 copyright	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	22;"	f
@@ -3248,6 +3253,7 @@ datadir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/b
 datadir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 datadir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 datadir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+datadir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 datadir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 datadir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 datadir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -4010,6 +4016,7 @@ dynlibdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC
 dynlibdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 dynlibdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 dynlibdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+dynlibdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 dynlibdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 dynlibdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 dynlibdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -4368,6 +4375,7 @@ getBinDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC
 getBinDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getBinDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getBinDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getBinDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getBinDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getBinDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getBinDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4386,6 +4394,7 @@ getDataDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AO
 getDataDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getDataDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getDataDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getDataDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getDataDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getDataDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getDataDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4402,6 +4411,7 @@ getDataFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0
 getDataFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	38;"	f
 getDataFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	38;"	f
 getDataFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	38;"	f
+getDataFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	38;"	f
 getDataFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	38;"	f
 getDataFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	38;"	f
 getDataFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	38;"	f
@@ -4422,6 +4432,7 @@ getDynLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/
 getDynLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getDynLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getDynLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getDynLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getDynLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getDynLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getDynLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4442,6 +4453,7 @@ getLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC
 getLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getLibDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getLibDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4458,6 +4470,7 @@ getLibexecDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x
 getLibexecDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getLibexecDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getLibexecDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getLibexecDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getLibexecDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getLibexecDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getLibexecDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4486,6 +4499,7 @@ getSysconfDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x
 getSysconfDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getSysconfDir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
 getSysconfDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	43;"	f
+getSysconfDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	43;"	f
 getSysconfDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	43;"	f
 getSysconfDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	43;"	f
 getSysconfDir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	43;"	f
@@ -4564,6 +4578,7 @@ homepage	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/
 homepage	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	24;"	f
 homepage	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2023.hs	24;"	f
 homepage	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	24;"	f
+homepage	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	24;"	f
 homepage	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	24;"	f
 homepage	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	24;"	f
 homepage	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	24;"	f
@@ -4790,6 +4805,7 @@ isPathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0
 isPathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	76;"	f
 isPathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	76;"	f
 isPathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	76;"	f
+isPathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	76;"	f
 isPathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	76;"	f
 isPathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	76;"	f
 isPathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	76;"	f
@@ -4824,6 +4840,7 @@ joinFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/
 joinFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	65;"	f
 joinFileName	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	65;"	f
 joinFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	65;"	f
+joinFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	65;"	f
 joinFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	65;"	f
 joinFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	65;"	f
 joinFileName	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	65;"	f
@@ -4948,6 +4965,7 @@ libdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/bu
 libdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 libdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 libdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+libdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 libdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 libdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 libdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -4964,6 +4982,7 @@ libexecdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AO
 libexecdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 libexecdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 libexecdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+libexecdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 libexecdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 libexecdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 libexecdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -5204,6 +5223,7 @@ name	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/buil
 name	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	15;"	f
 name	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2023.hs	15;"	f
 name	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	15;"	f
+name	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	15;"	f
 name	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	15;"	f
 name	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	15;"	f
 name	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	15;"	f
@@ -5422,6 +5442,7 @@ pathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x
 pathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	73;"	f
 pathSeparator	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	73;"	f
 pathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	73;"	f
+pathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	73;"	f
 pathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	73;"	f
 pathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	73;"	f
 pathSeparator	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	73;"	f
@@ -6194,6 +6215,7 @@ synopsis	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC/
 synopsis	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	20;"	f
 synopsis	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2023.hs	20;"	f
 synopsis	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	20;"	f
+synopsis	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	20;"	f
 synopsis	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	20;"	f
 synopsis	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	20;"	f
 synopsis	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	20;"	f
@@ -6210,6 +6232,7 @@ sysconfdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AO
 sysconfdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 sysconfdir	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
 sysconfdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	48;"	f
+sysconfdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	48;"	f
 sysconfdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	48;"	f
 sysconfdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 sysconfdir	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
@@ -6567,6 +6590,8 @@ version	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC20
 version	2023/dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2023.hs	35;"	f
 version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/PackageInfo_AOC.hs	17;"	f
 version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC-0.1.0.0/build/autogen/Paths_AOC.hs	35;"	f
+version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/PackageInfo_AOC2021.hs	17;"	f
+version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2021-0.1.0.0/x/AOC2021/build/AOC2021/autogen/Paths_AOC2021.hs	35;"	f
 version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/PackageInfo_AOC2022.hs	17;"	f
 version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen/Paths_AOC2022.hs	35;"	f
 version	dist-newstyle/build/aarch64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	17;"	f
