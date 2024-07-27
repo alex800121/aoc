@@ -693,7 +693,7 @@ Day3	2023/src/Day3.hs	1;"	m
 Day4	/home/alex800121/haskell/aoc/2015/src/Day4.hs	3;"	m
 Day4	/home/alex800121/haskell/aoc/2016/src/Day4.hs	1;"	m
 Day4	/home/alex800121/haskell/aoc/2017/src/Day4.hs	1;"	m
-Day4	/home/alex800121/haskell/aoc/2018/src/Day4.hs	1;"	m
+Day4	/home/alex800121/haskell/aoc/2018/src/Day4.hs	3;"	m
 Day4	/home/alex800121/haskell/aoc/2019/src/Day4.hs	1;"	m
 Day4	/home/alex800121/haskell/aoc/2020/src/Day4.hs	1;"	m
 Day4	/home/alex800121/haskell/aoc/2021/src/Day4.hs	1;"	m
@@ -703,7 +703,7 @@ Day4	/home/alex800121/haskell/aoc/Day4.hs	1;"	m
 Day4	2015/src/Day4.hs	3;"	m
 Day4	2016/src/Day4.hs	1;"	m
 Day4	2017/src/Day4.hs	1;"	m
-Day4	2018/src/Day4.hs	1;"	m
+Day4	2018/src/Day4.hs	3;"	m
 Day4	2019/src/Day4.hs	1;"	m
 Day4	2020/src/Day4.hs	1;"	m
 Day4	2021/src/Day4.hs	1;"	m
@@ -916,16 +916,22 @@ Entry	/home/alex800121/haskell/aoc/2022/src/Day7.hs	14;"	t
 Entry	2022/src/Day7.hs	14;"	t
 Eql	/home/alex800121/haskell/aoc/2021/src/Day24'.hs	28;"	C
 Eql	2021/src/Day24'.hs	28;"	C
+Event	/home/alex800121/haskell/aoc/2018/src/Day4.hs	21;"	t
+Event	2018/src/Day4.hs	21;"	t
 ExRange	/home/alex800121/haskell/aoc/2016/src/Day20.hs	8;"	t
 ExRange	2016/src/Day20.hs	8;"	t
 Expr	/home/alex800121/haskell/aoc/2020/src/Day18.hs	17;"	t
 Expr	2020/src/Day18.hs	17;"	t
+F	/home/alex800121/haskell/aoc/2018/src/Day3.hs	13;"	t
+F	2018/src/Day3.hs	13;"	t
 F	/home/alex800121/haskell/aoc/2019/src/Day17.hs	44;"	C
 F	/home/alex800121/haskell/aoc/2019/src/Day21.hs	31;"	C
 F	2019/src/Day17.hs	44;"	C
 F	2019/src/Day21.hs	31;"	C
 FS	/home/alex800121/haskell/aoc/2016/src/Day22.hs	12;"	t
 FS	2016/src/Day22.hs	12;"	t
+Fabric	/home/alex800121/haskell/aoc/2018/src/Day3.hs	15;"	t
+Fabric	2018/src/Day3.hs	15;"	t
 Facility	/home/alex800121/haskell/aoc/2016/src/Day11.hs	27;"	t
 Facility	2016/src/Day11.hs	27;"	t
 Facility'	/home/alex800121/haskell/aoc/2016/src/Day11.hs	33;"	t
@@ -1050,6 +1056,8 @@ Gro	/home/alex800121/haskell/aoc/2017/src/Day9.hs	15;"	C
 Gro	2017/src/Day9.hs	15;"	C
 Group	/home/alex800121/haskell/aoc/2017/src/Day9.hs	18;"	t
 Group	2017/src/Day9.hs	18;"	t
+Guard	/home/alex800121/haskell/aoc/2018/src/Day4.hs	25;"	t
+Guard	2018/src/Day4.hs	25;"	t
 H	/home/alex800121/haskell/aoc/2019/src/Day21.hs	33;"	C
 H	/home/alex800121/haskell/aoc/2023/src/Day7.hs	12;"	C
 H	2019/src/Day21.hs	33;"	C
@@ -2166,6 +2174,8 @@ Shape	/home/alex800121/haskell/aoc/2022/src/Day17.hs	15;"	t
 Shape	2022/src/Day17.hs	15;"	t
 Shield	/home/alex800121/haskell/aoc/2015/src/Day22.hs	25;"	C
 Shield	2015/src/Day22.hs	25;"	C
+Shift	/home/alex800121/haskell/aoc/2018/src/Day4.hs	21;"	C
+Shift	2018/src/Day4.hs	21;"	C
 Side	/home/alex800121/haskell/aoc/2020/src/Day12.hs	15;"	t
 Side	/home/alex800121/haskell/aoc/2021/src/Day18.hs	12;"	t
 Side	2020/src/Day12.hs	15;"	t
@@ -2176,6 +2186,8 @@ Signal	/home/alex800121/haskell/aoc/2023/src/Day20.hs	60;"	t
 Signal	2023/src/Day20.hs	60;"	t
 Sin	/home/alex800121/haskell/aoc/2016/src/Day9.hs	11;"	C
 Sin	2016/src/Day9.hs	11;"	C
+Sleep	/home/alex800121/haskell/aoc/2018/src/Day4.hs	21;"	C
+Sleep	2018/src/Day4.hs	21;"	C
 SmallDeck	/home/alex800121/haskell/aoc/2019/src/Day22.hs	66;"	t
 SmallDeck	2019/src/Day22.hs	66;"	t
 Snd	/home/alex800121/haskell/aoc/2017/src/Day18.hs	20;"	C
@@ -2270,6 +2282,10 @@ TileType	/home/alex800121/haskell/aoc/2020/src/Day20.hs	46;"	t
 TileType	2020/src/Day20.hs	46;"	t
 TileVar	/home/alex800121/haskell/aoc/2020/src/Day20.hs	48;"	t
 TileVar	2020/src/Day20.hs	48;"	t
+Time	/home/alex800121/haskell/aoc/2018/src/Day4.hs	23;"	t
+Time	2018/src/Day4.hs	23;"	t
+TimeEvent	/home/alex800121/haskell/aoc/2018/src/Day4.hs	27;"	t
+TimeEvent	2018/src/Day4.hs	27;"	t
 Toggle	/home/alex800121/haskell/aoc/2015/src/Day6.hs	26;"	C
 Toggle	2015/src/Day6.hs	26;"	C
 Tree	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	53;"	t
@@ -2372,6 +2388,8 @@ W	2020/src/Day24.hs	20;"	C
 W	2021/src/Day24'.hs	26;"	C
 WALK	/home/alex800121/haskell/aoc/2019/src/Day21.hs	21;"	C
 WALK	2019/src/Day21.hs	21;"	C
+Wake	/home/alex800121/haskell/aoc/2018/src/Day4.hs	21;"	C
+Wake	2018/src/Day4.hs	21;"	C
 Wall	/home/alex800121/haskell/aoc/2019/src/Day13.hs	31;"	C
 Wall	/home/alex800121/haskell/aoc/2019/src/Day15.hs	26;"	C
 Wall	2019/src/Day13.hs	31;"	C
@@ -2976,6 +2994,8 @@ buildCycle	/home/alex800121/haskell/aoc/2023/src/Day8.hs	26;"	f
 buildCycle	2023/src/Day8.hs	26;"	f
 buildFormula	/home/alex800121/haskell/aoc/2023/src/Day9.hs	20;"	f
 buildFormula	2023/src/Day9.hs	20;"	f
+buildGuard	/home/alex800121/haskell/aoc/2018/src/Day4.hs	45;"	f
+buildGuard	2018/src/Day4.hs	45;"	f
 buildIndex'	/home/alex800121/haskell/aoc/2019/src/Day10.hs	52;"	f
 buildIndex'	2019/src/Day10.hs	52;"	f
 buildIns	/home/alex800121/haskell/aoc/2022/src/Day5.hs	18;"	f
@@ -3308,6 +3328,8 @@ copyright	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autog
 copyright	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/PackageInfo_AOC2022.hs	22;"	f
 copyright	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2023-0.1.0.0/build/autogen/PackageInfo_AOC2023.hs	22;"	f
 copyright	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2023.hs	22;"	f
+correct	/home/alex800121/haskell/aoc/2018/src/Day2.hs	12;"	f
+correct	2018/src/Day2.hs	12;"	f
 countBags	/home/alex800121/haskell/aoc/2020/src/Day7.hs	50;"	f
 countBags	2020/src/Day7.hs	50;"	f
 countChildren	/home/alex800121/haskell/aoc/2019/src/Day6.hs	39;"	f
@@ -3390,10 +3412,12 @@ datadir	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2022-0.1.0.0/build/autogen
 datadir	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2022-0.1.0.0/x/AOC2022/build/AOC2022/autogen/Paths_AOC2022.hs	48;"	f
 datadir	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2023-0.1.0.0/build/autogen/Paths_AOC2023.hs	48;"	f
 datadir	dist-newstyle/build/x86_64-linux/ghc-9.6.5/AOC2023-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2023.hs	48;"	f
+day	/home/alex800121/haskell/aoc/2018/src/Day4.hs	23;"	f
+day	2018/src/Day4.hs	23;"	f
 day1	/home/alex800121/haskell/aoc/2015/src/Day1.hs	6;"	f
 day1	/home/alex800121/haskell/aoc/2016/src/Day1.hs	39;"	f
 day1	/home/alex800121/haskell/aoc/2017/src/Day1.hs	16;"	f
-day1	/home/alex800121/haskell/aoc/2018/src/Day1.hs	5;"	f
+day1	/home/alex800121/haskell/aoc/2018/src/Day1.hs	8;"	f
 day1	/home/alex800121/haskell/aoc/2019/src/Day1.hs	8;"	f
 day1	/home/alex800121/haskell/aoc/2020/src/Day1.hs	17;"	f
 day1	/home/alex800121/haskell/aoc/2021/src/Day1.hs	15;"	f
@@ -3403,7 +3427,7 @@ day1	/home/alex800121/haskell/aoc/Day1.hs	5;"	f
 day1	2015/src/Day1.hs	6;"	f
 day1	2016/src/Day1.hs	39;"	f
 day1	2017/src/Day1.hs	16;"	f
-day1	2018/src/Day1.hs	5;"	f
+day1	2018/src/Day1.hs	8;"	f
 day1	2019/src/Day1.hs	8;"	f
 day1	2020/src/Day1.hs	17;"	f
 day1	2021/src/Day1.hs	15;"	f
@@ -3644,7 +3668,7 @@ day1b	2017/src/Day1.hs	12;"	f
 day2	/home/alex800121/haskell/aoc/2015/src/Day2.hs	8;"	f
 day2	/home/alex800121/haskell/aoc/2016/src/Day2.hs	56;"	f
 day2	/home/alex800121/haskell/aoc/2017/src/Day2.hs	13;"	f
-day2	/home/alex800121/haskell/aoc/2018/src/Day2.hs	5;"	f
+day2	/home/alex800121/haskell/aoc/2018/src/Day2.hs	19;"	f
 day2	/home/alex800121/haskell/aoc/2019/src/Day2.hs	18;"	f
 day2	/home/alex800121/haskell/aoc/2020/src/Day2.hs	33;"	f
 day2	/home/alex800121/haskell/aoc/2021/src/Day2.hs	33;"	f
@@ -3654,7 +3678,7 @@ day2	/home/alex800121/haskell/aoc/Day2.hs	5;"	f
 day2	2015/src/Day2.hs	8;"	f
 day2	2016/src/Day2.hs	56;"	f
 day2	2017/src/Day2.hs	13;"	f
-day2	2018/src/Day2.hs	5;"	f
+day2	2018/src/Day2.hs	19;"	f
 day2	2019/src/Day2.hs	18;"	f
 day2	2020/src/Day2.hs	33;"	f
 day2	2021/src/Day2.hs	33;"	f
@@ -3805,7 +3829,7 @@ day2b	2023/src/Day2.hs	46;"	f
 day3	/home/alex800121/haskell/aoc/2015/src/Day3.hs	19;"	f
 day3	/home/alex800121/haskell/aoc/2016/src/Day3.hs	6;"	f
 day3	/home/alex800121/haskell/aoc/2017/src/Day3.hs	40;"	f
-day3	/home/alex800121/haskell/aoc/2018/src/Day3.hs	5;"	f
+day3	/home/alex800121/haskell/aoc/2018/src/Day3.hs	27;"	f
 day3	/home/alex800121/haskell/aoc/2019/src/Day3.hs	45;"	f
 day3	/home/alex800121/haskell/aoc/2020/src/Day3.hs	31;"	f
 day3	/home/alex800121/haskell/aoc/2021/src/Day3.hs	21;"	f
@@ -3815,7 +3839,7 @@ day3	/home/alex800121/haskell/aoc/Day3.hs	5;"	f
 day3	2015/src/Day3.hs	19;"	f
 day3	2016/src/Day3.hs	6;"	f
 day3	2017/src/Day3.hs	40;"	f
-day3	2018/src/Day3.hs	5;"	f
+day3	2018/src/Day3.hs	27;"	f
 day3	2019/src/Day3.hs	45;"	f
 day3	2020/src/Day3.hs	31;"	f
 day3	2021/src/Day3.hs	21;"	f
@@ -3828,7 +3852,7 @@ day3b	2017/src/Day3.hs	33;"	f
 day4	/home/alex800121/haskell/aoc/2015/src/Day4.hs	24;"	f
 day4	/home/alex800121/haskell/aoc/2016/src/Day4.hs	30;"	f
 day4	/home/alex800121/haskell/aoc/2017/src/Day4.hs	6;"	f
-day4	/home/alex800121/haskell/aoc/2018/src/Day4.hs	5;"	f
+day4	/home/alex800121/haskell/aoc/2018/src/Day4.hs	54;"	f
 day4	/home/alex800121/haskell/aoc/2019/src/Day4.hs	21;"	f
 day4	/home/alex800121/haskell/aoc/2020/src/Day4.hs	66;"	f
 day4	/home/alex800121/haskell/aoc/2021/src/Day4.hs	33;"	f
@@ -3838,7 +3862,7 @@ day4	/home/alex800121/haskell/aoc/Day4.hs	5;"	f
 day4	2015/src/Day4.hs	24;"	f
 day4	2016/src/Day4.hs	30;"	f
 day4	2017/src/Day4.hs	6;"	f
-day4	2018/src/Day4.hs	5;"	f
+day4	2018/src/Day4.hs	54;"	f
 day4	2019/src/Day4.hs	21;"	f
 day4	2020/src/Day4.hs	66;"	f
 day4	2021/src/Day4.hs	33;"	f
@@ -3851,7 +3875,7 @@ day4b	2023/src/Day4.hs	33;"	f
 day5	/home/alex800121/haskell/aoc/2015/src/Day5.hs	22;"	f
 day5	/home/alex800121/haskell/aoc/2016/src/Day5.hs	41;"	f
 day5	/home/alex800121/haskell/aoc/2017/src/Day5.hs	18;"	f
-day5	/home/alex800121/haskell/aoc/2018/src/Day5.hs	5;"	f
+day5	/home/alex800121/haskell/aoc/2018/src/Day5.hs	13;"	f
 day5	/home/alex800121/haskell/aoc/2019/src/Day5.hs	15;"	f
 day5	/home/alex800121/haskell/aoc/2020/src/Day5.hs	6;"	f
 day5	/home/alex800121/haskell/aoc/2021/src/Day5.hs	23;"	f
@@ -3861,7 +3885,7 @@ day5	/home/alex800121/haskell/aoc/Day5.hs	5;"	f
 day5	2015/src/Day5.hs	22;"	f
 day5	2016/src/Day5.hs	41;"	f
 day5	2017/src/Day5.hs	18;"	f
-day5	2018/src/Day5.hs	5;"	f
+day5	2018/src/Day5.hs	13;"	f
 day5	2019/src/Day5.hs	15;"	f
 day5	2020/src/Day5.hs	6;"	f
 day5	2021/src/Day5.hs	23;"	f
@@ -4335,6 +4359,8 @@ f	2019/src/Day19.hs	20;"	f
 f	2020/src/Day25.hs	21;"	f
 f	2023/src/Day1.hs	14;"	f
 f	2023/src/Day6.hs	7;"	f
+fabric	/home/alex800121/haskell/aoc/2018/src/Day3.hs	15;"	f
+fabric	2018/src/Day3.hs	15;"	f
 facilityParser	/home/alex800121/haskell/aoc/2016/src/Day11.hs	134;"	f
 facilityParser	2016/src/Day11.hs	134;"	f
 factorial	/home/alex800121/haskell/aoc/2023/src/Day9.hs	15;"	f
@@ -4371,6 +4397,8 @@ factors	AOC/src/MyLib2021.hs	198;"	f
 factors	AOC/src/MyLib2022.hs	177;"	f
 fastStep	/home/alex800121/haskell/aoc/2019/src/Day16.hs	16;"	f
 fastStep	2019/src/Day16.hs	16;"	f
+fid	/home/alex800121/haskell/aoc/2018/src/Day3.hs	15;"	f
+fid	2018/src/Day3.hs	15;"	f
 fill	/home/alex800121/haskell/aoc/2015/src/Day17.hs	8;"	f
 fill	2015/src/Day17.hs	8;"	f
 filterBitN	/home/alex800121/haskell/aoc/2021/src/Day3.hs	7;"	f
@@ -5975,6 +6003,8 @@ minY	/home/alex800121/haskell/aoc/2016/src/Day22.hs	50;"	f
 minY	/home/alex800121/haskell/aoc/2019/src/Day24.hs	49;"	f
 minY	2016/src/Day22.hs	50;"	f
 minY	2019/src/Day24.hs	49;"	f
+minute	/home/alex800121/haskell/aoc/2018/src/Day4.hs	23;"	f
+minute	2018/src/Day4.hs	23;"	f
 mkUBOC	/home/alex800121/haskell/aoc/2019/src/OpCode.hs	76;"	f
 mkUBOC	2019/src/OpCode.hs	76;"	f
 modifyFieldR	/home/alex800121/haskell/aoc/2023/src/Day19.hs	92;"	f
@@ -5985,6 +6015,8 @@ monkeyParser	/home/alex800121/haskell/aoc/2022/src/Day21.hs	52;"	f
 monkeyParser	2022/src/Day21.hs	52;"	f
 monkeysParser	/home/alex800121/haskell/aoc/2022/src/Day11.hs	35;"	f
 monkeysParser	2022/src/Day11.hs	35;"	f
+month	/home/alex800121/haskell/aoc/2018/src/Day4.hs	23;"	f
+month	2018/src/Day4.hs	23;"	f
 move	/home/alex800121/haskell/aoc/2020/src/Day12.hs	72;"	f
 move	/home/alex800121/haskell/aoc/2022/src/Day9.hs	23;"	f
 move	2020/src/Day12.hs	72;"	f
@@ -6229,6 +6261,8 @@ parseConj	/home/alex800121/haskell/aoc/2023/src/Day20.hs	84;"	f
 parseConj	2023/src/Day20.hs	84;"	f
 parseDirection	/home/alex800121/haskell/aoc/2020/src/Day24.hs	25;"	f
 parseDirection	2020/src/Day24.hs	25;"	f
+parseFabric	/home/alex800121/haskell/aoc/2018/src/Day3.hs	18;"	f
+parseFabric	2018/src/Day3.hs	18;"	f
 parseFlip	/home/alex800121/haskell/aoc/2023/src/Day20.hs	77;"	f
 parseFlip	2023/src/Day20.hs	77;"	f
 parseGame	/home/alex800121/haskell/aoc/2023/src/Day2.hs	29;"	f
@@ -6265,6 +6299,8 @@ parseRules	/home/alex800121/haskell/aoc/2023/src/Day19.hs	115;"	f
 parseRules	2023/src/Day19.hs	115;"	f
 parseSNNum	/home/alex800121/haskell/aoc/2021/src/Day18.hs	23;"	f
 parseSNNum	2021/src/Day18.hs	23;"	f
+parseTimeEvent	/home/alex800121/haskell/aoc/2018/src/Day4.hs	29;"	f
+parseTimeEvent	2018/src/Day4.hs	29;"	f
 parseUnit	/home/alex800121/haskell/aoc/2015/src/Day7.hs	42;"	f
 parseUnit	2015/src/Day7.hs	42;"	f
 parseWord	/home/alex800121/haskell/aoc/2015/src/Day7.hs	39;"	f
@@ -6563,6 +6599,8 @@ range	/home/alex800121/haskell/aoc/2020/src/Day2.hs	15;"	f
 range	2020/src/Day2.hs	15;"	f
 reachable	/home/alex800121/haskell/aoc/2022/src/Day12.hs	20;"	f
 reachable	2022/src/Day12.hs	20;"	f
+react	/home/alex800121/haskell/aoc/2018/src/Day5.hs	6;"	f
+react	2018/src/Day5.hs	6;"	f
 readASCII	/home/alex800121/haskell/aoc/2015/src/Day8.hs	23;"	f
 readASCII	2015/src/Day8.hs	23;"	f
 readAffine	/home/alex800121/haskell/aoc/2019/src/Day22.hs	34;"	f
