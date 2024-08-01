@@ -15,12 +15,14 @@ import Data.Bits (Bits (..), FiniteBits (..), xor)
 import Data.Char (chr, digitToInt, intToDigit, isHexDigit, ord)
 import Data.Foldable (Foldable (foldr'), toList)
 import Data.Ix (Ix (..))
+import Data.Kind (Type)
 import Data.List (delete, elemIndex, findIndex, foldl', group, nub, tails, uncons)
 import Data.List.Split (chunksOf)
 import Data.Map (Map)
 import Data.Map qualified as Map
 import Data.Maybe (fromJust, fromMaybe, mapMaybe, maybeToList)
 import Data.Proxy (Proxy (..))
+import Data.STRef.Strict (STRef, newSTRef, readSTRef)
 import Data.Sequence qualified as S
 import Data.Set (Set)
 import Data.Set qualified as Set
@@ -297,7 +299,7 @@ sumVariants target choices
   | target == 0 = [[]]
   | target /= 0 && null choices = []
   | otherwise = do
-      (a : t) <- init $ tails $ choices
+      (a : t) <- init $ tails choices
       b <- sumVariants (target - a) t
       return (a : b)
 
