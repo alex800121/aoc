@@ -4057,7 +4057,7 @@ day8a	2023/src/Day8.hs	19;"	f
 day9	/home/alex800121/haskell/aoc/2015/src/Day9.hs	26;"	f
 day9	/home/alex800121/haskell/aoc/2016/src/Day9.hs	36;"	f
 day9	/home/alex800121/haskell/aoc/2017/src/Day9.hs	42;"	f
-day9	/home/alex800121/haskell/aoc/2018/src/Day9.hs	33;"	f
+day9	/home/alex800121/haskell/aoc/2018/src/Day9.hs	70;"	f
 day9	/home/alex800121/haskell/aoc/2019/src/Day9.hs	9;"	f
 day9	/home/alex800121/haskell/aoc/2020/src/Day9.hs	19;"	f
 day9	/home/alex800121/haskell/aoc/2021/src/Day9.hs	85;"	f
@@ -4067,7 +4067,7 @@ day9	/home/alex800121/haskell/aoc/Day9.hs	5;"	f
 day9	2015/src/Day9.hs	26;"	f
 day9	2016/src/Day9.hs	36;"	f
 day9	2017/src/Day9.hs	44;"	f
-day9	2018/src/Day9.hs	33;"	f
+day9	2018/src/Day9.hs	70;"	f
 day9	2019/src/Day9.hs	13;"	f
 day9	2020/src/Day9.hs	26;"	f
 day9	2021/src/Day9.hs	76;"	f
@@ -7020,6 +7020,8 @@ sharedSides	/home/alex800121/haskell/aoc/2020/src/Day20.hs	123;"	f
 sharedSides	2020/src/Day20.hs	141;"	f
 shoelace	/home/alex800121/haskell/aoc/2023/src/Day18.hs	76;"	f
 shoelace	2023/src/Day18.hs	76;"	f
+showV	/home/alex800121/haskell/aoc/2018/src/Day9.hs	48;"	f
+showV	2018/src/Day9.hs	48;"	f
 shuffleTime	/home/alex800121/haskell/aoc/2019/src/Day22.hs	61;"	f
 shuffleTime	2019/src/Day22.hs	70;"	f
 sideLen	/home/alex800121/haskell/aoc/2022/src/Day22.hs	121;"	f
