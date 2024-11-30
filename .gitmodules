@@ -1,5 +1,5 @@
 [submodule "aoc2024"]
-	path = 2024
+	path = 2023
 	url = git@github.com:alex800121/aoc2024
 [submodule "aoc2023"]
 	path = 2023
