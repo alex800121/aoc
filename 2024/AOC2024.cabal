@@ -1,0 +1,129 @@
+cabal-version:      3.4
+name:               AOC2024
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             alex800121
+maintainer:         alex800121@hotmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+common shared
+    default-language: GHC2021
+    build-depends:
+        base >= 4.18,
+        megaparsec,
+        parser-combinators,
+        transformers,
+        containers,
+        vector,
+        split,
+        array,
+        bytestring,
+        base16-bytestring,
+        multiset,
+        pqueue,
+        dlist,
+        finite-typelits,
+        groups,
+        lens,
+        unordered-containers,
+        hashable,
+        matrix,
+        random,
+        AOC
+    default-extensions: TypeFamilies, OverloadedRecordDot, TypeApplications, DataKinds
+    ghc-options: -O2
+
+library
+    import: shared
+    exposed-modules:
+        Day1,
+        Day2,
+        Day3,
+        Day4,
+        Day5,
+        Day6,
+        Day7,
+        Day8,
+        Day9,
+        Day10,
+        Day11,
+        Day12,
+        Day13,
+        Day14,
+        Day15,
+        Day16,
+        Day17,
+        Day18,
+        Day19,
+        Day20,
+        Day21,
+        Day22,
+        Day23,
+        Day24,
+        Day25
+
+    -- Modules included in this library but not exported.
+    other-modules:
+        Paths_AOC2024
+        
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    hs-source-dirs:   src, app
+
+
+executable AOC2024
+    import: shared
+
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    other-modules:
+        Day1,
+        Day2,
+        Day3,
+        Day4,
+        Day5,
+        Day6,
+        Day7,
+        Day8,
+        Day9,
+        Day10,
+        Day11,
+        Day12,
+        Day13,
+        Day14,
+        Day15,
+        Day16,
+        Day17,
+        Day18,
+        Day19,
+        Day20,
+        Day21,
+        Day22,
+        Day23,
+        Day24,
+        Day25,
+        Paths_AOC2024
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    -- build-depends:
+    --     AOC2020
+    
+    hs-source-dirs:   app, src
