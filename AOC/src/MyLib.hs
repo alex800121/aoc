@@ -5,6 +5,7 @@
 {-# LANGUAGE GADTs #-}
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE OverloadedRecordDot #-}
 
 module MyLib where
 
@@ -29,7 +30,7 @@ import Data.Set qualified as Set
 import Data.Void (Void)
 import Debug.Trace
 import GHC.IsList (IsList, Item (..))
-import Text.Megaparsec
+import Text.Megaparsec ( Parsec )
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
 
