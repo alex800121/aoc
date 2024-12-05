@@ -53,6 +53,8 @@ common shared
     default-language: GHC2021
     build-depends:
         base >= 4.18,
+        heftia-effects ^>= 0.5,
+        ghc-typelits-knownnat ^>= 0.7,
         megaparsec,
         parser-combinators,
         transformers,
@@ -72,8 +74,20 @@ common shared
         hashable,
         matrix,
         random
-    default-extensions: TypeFamilies, OverloadedRecordDot, TypeApplications, DataKinds
-    ghc-options: -O2
+    default-extensions: 
+        LambdaCase,
+        DerivingStrategies,
+        DataKinds,
+        TypeFamilies,
+        BlockArguments,
+        FunctionalDependencies,
+        RecordWildCards,
+        DefaultSignatures,
+        PatternSynonyms,
+        TemplateHaskell,
+        PartialTypeSignatures,
+        AllowAmbiguousTypes
+    ghc-options: -fplugin GHC.TypeLits.KnownNat.Solver
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -82,5 +96,6 @@ common shared
 library
     import: shared
     exposed-modules:
-        MyLib
+        MyLib,
+        HeftiaParser
 
