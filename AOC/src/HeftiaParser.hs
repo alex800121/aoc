@@ -11,6 +11,22 @@ import Data.List (stripPrefix)
 import Data.Maybe (fromMaybe)
 import Data.Proxy (Proxy)
 import Data.Char (isNumber)
+import Control.Arrow
+
+runNonDetMaybe :: forall ef a. Eff '[] (Choose ': Empty ': ef) a -> Eff '[] ef (Maybe a)
+runNonDetMaybe =
+  bundleN @2
+    >>> interpretBy
+      (pure . pure)
+      ( ( \Choose k -> do
+            x <- k False
+            case x of
+              Just y -> pure (pure y)
+              Nothing -> k True
+        )
+          !+ (\Empty _ -> pure Nothing)
+          !+ nil
+      )
 
 try :: forall a s eh ef. (ChooseH <<| eh, Empty <| ef, State String <| ef) => Eff eh ef a -> Eff eh ef a
 try m = do
