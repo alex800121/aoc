@@ -19,9 +19,6 @@
 [submodule "aoc2017"]
 	path = 2017
 	url = git@github.com:alex800121/aoc2017
-[submodule "aoc2016"]
-	path = 2016
-	url = ./2016
 [submodule "aoc2015"]
 	path = 2015
 	url = git@github.com:alex800121/aoc2015
