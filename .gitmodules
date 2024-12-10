@@ -25,3 +25,6 @@
 [submodule "2024"]
 	path = 2024
 	url = git@github.com:alex800121/aoc2024
+[submodule "2016"]
+	path = 2016
+	url = git@github.com:alex800121/aoc2016
