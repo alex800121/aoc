@@ -3,9 +3,9 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE GADTs #-}
+{-# LANGUAGE OverloadedRecordDot #-}
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TemplateHaskell #-}
-{-# LANGUAGE OverloadedRecordDot #-}
 
 module MyLib where
 
@@ -30,7 +30,7 @@ import Data.Set qualified as Set
 import Data.Void (Void)
 import Debug.Trace
 import GHC.IsList (IsList, Item (..))
-import Text.Megaparsec ( Parsec )
+import Text.Megaparsec (Parsec)
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
 
@@ -261,27 +261,24 @@ drawArray xs = array ((0, 0), (x, y)) l
     (x, y) = (maximum (map length xs) - 1, length xs - 1)
     l = concat $ zipWith (\y' ys -> zipWith (\x' z -> ((x', y'), z)) [0 .. x] ys) [0 .. y] xs
 
-drawMap :: (a -> Maybe b) -> [[a]] -> Map (Int, Int) b
-drawMap convert l = f 0 0
-  where
-    f x y = case l !? y of
-      Nothing -> Map.empty
-      Just y' -> case y' !? x of
-        Nothing -> f 0 (y + 1)
-        Just a -> case convert a of
-          Nothing -> f (x + 1) y
-          Just b -> Map.insert (x, y) b (f (x + 1) y)
+drawMapWithKey :: (Ord i) => (i -> a -> (i, Maybe b)) -> i -> [a] -> Map i b
+drawMapWithKey gen i0 = runIdentity . drawMapWithKeyM (\i a -> pure (gen i a)) i0
 
-drawMapWithKey :: ((Int, Int) -> a -> Maybe b) -> [[a]] -> Map (Int, Int) b
-drawMapWithKey convert l = f 0 0
+drawMapWithKeyM :: (Ord i, Monad m) => (i -> a -> m (i, Maybe b)) -> i -> [a] -> m (Map i b)
+drawMapWithKeyM gen = go Map.empty
   where
-    f x y = case l !? y of
-      Nothing -> Map.empty
-      Just y' -> case y' !? x of
-        Nothing -> f 0 (y + 1)
-        Just a -> case convert (x, y) a of
-          Nothing -> f (x + 1) y
-          Just b -> Map.insert (x, y) b (f (x + 1) y)
+    go accM _ [] = pure accM
+    go accM i (x : xs) = do
+      (i', b) <- gen i x
+      maybe (go accM i' xs) (\y -> go (Map.insert i y accM) i' xs) b
+
+drawMap :: (a -> Maybe b) -> [[a]] -> Map (Int, Int) b
+drawMap _ [] = Map.empty
+drawMap gen (x : xs) = go Map.empty 0 0 x xs
+  where
+    go accM _ _ [] [] = accM
+    go accM _ y [] (l : ls) = go accM 0 (y + 1) l ls
+    go accM x y (e : es) ls = go (maybe accM (\e -> Map.insert (x, y) e accM) (gen e)) (x + 1) y es ls
 
 drawGraph :: (Maybe a -> b) -> Map (Int, Int) a -> [[b]]
 drawGraph convert m = f minY
