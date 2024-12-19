@@ -1,0 +1,12 @@
+packages: 
+  2024/AOC2024.cabal,
+  2023/AOC2023.cabal,
+  2022/AOC2022.cabal,
+  2021/AOC2021.cabal,
+  2020/AOC2020.cabal,
+  2019/AOC2019.cabal,
+  2018/AOC2018.cabal,
+  2017/AOC2017.cabal,
+  2016/AOC2016.cabal,
+  2015/AOC2015.cabal,
+  AOC/AOC.cabal
