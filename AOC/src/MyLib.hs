@@ -480,6 +480,7 @@ pick n l
       (x, xs) <- mapMaybe uncons $ tails l
       (x :) <$> pick (n - 1) xs
 
+-- extEuc x y = (a, b, c) ~ ax + by = c where c = gcd x y
 extEuc :: (Integral a) => a -> a -> (a, a, a)
 extEuc a b = go a 1 0 b 0 1
   where
@@ -490,3 +491,15 @@ extEuc a b = go a 1 0 b 0 1
         (q1, r2) = r0 `divMod` r1
         s2 = s0 - (q1 * s1)
         t2 = t0 - (q1 * t1)
+
+-- crt (xr, x) (yr, y) = (xyr, xy) ~ xyr + xy * c = xr + x * a = yr + y * b
+crt :: (Integral a) => (a, a) -> (a, a) -> Maybe (a, a)
+crt (xr, x) (yr, y)
+  | m == 0 = Just (d `mod` e, e)
+  | otherwise = Nothing
+  where
+    l = xr - yr
+    (a, b, c) = extEuc x y -- ax + by = c
+    d = a * yr * (x `div` c) + b * xr * (y `div` c)
+    e = lcm x y
+    m = l `mod` c
