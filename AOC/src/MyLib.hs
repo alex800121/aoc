@@ -475,10 +475,8 @@ vWrite v i = vModify v i . const
 
 pick :: Int -> [a] -> [[a]]
 pick n l
-  | n <= 0 = pure []
-  | otherwise = do
-      (x, xs) <- mapMaybe uncons $ tails l
-      (x :) <$> pick (n - 1) xs
+  | n <= 0 = [[]]
+  | otherwise = [x : xs' | (x : xs) <- tails l, xs' <- pick (n - 1) xs]
 
 -- extEuc x y = (a, b, c) ~ ax + by = c where c = gcd x y
 extEuc :: (Integral a) => a -> a -> (a, a, a)
