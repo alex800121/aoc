@@ -33,6 +33,7 @@ import GHC.IsList (IsList, Item (..))
 import Text.Megaparsec (Parsec)
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
+import Control.Applicative (Alternative (..))
 
 calcLargeCycleN :: ([a] -> Maybe (Int, Int, a)) -> Int -> [a] -> Maybe a
 calcLargeCycleN f n xs = case f xs of
@@ -410,13 +411,11 @@ instance (Item (Vec n a) ~ a, IsList (Vec n a)) => IsList (Vec (S n) a) where
 manhattan :: (Num a) => Vec n a -> a
 manhattan = sum . fmap abs
 
-overlapEucVec :: (Ord a) => Vec n (a, a) -> Vec n (a, a) -> Maybe (Vec n (a, a))
+overlapEucVec :: (Alternative f, Ord a) => Vec n (a, a) -> Vec n (a, a) -> f (Vec n (a, a))
 overlapEucVec Nil Nil = pure Nil
 overlapEucVec (Cons (a, b) xs) (Cons (c, d) ys)
-  | maxOfSmall < minOfBig = do
-      rest <- overlapEucVec xs ys
-      pure (Cons (maxOfSmall, minOfBig) rest)
-  | otherwise = Nothing
+  | maxOfSmall < minOfBig = Cons (maxOfSmall, minOfBig) <$> overlapEucVec xs ys
+  | otherwise = empty
   where
     maxOfSmall = max a c
     minOfBig = min b d
