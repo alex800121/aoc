@@ -53,7 +53,7 @@ common shared
     default-language: GHC2021
     build-depends:
         base >= 4.18,
-        heftia-effects ^>= 0.5,
+        heftia-effects >= 0.5,
         ghc-typelits-knownnat ^>= 0.7,
         megaparsec,
         parser-combinators,
@@ -96,6 +96,4 @@ common shared
 library
     import: shared
     exposed-modules:
-        MyLib,
-        HeftiaParser
-
+        MyLib

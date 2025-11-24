@@ -5,11 +5,10 @@
 {-# LANGUAGE GADTs #-}
 {-# LANGUAGE OverloadedRecordDot #-}
 {-# LANGUAGE StandaloneDeriving #-}
-{-# LANGUAGE TemplateHaskell #-}
 
 module MyLib where
 
-import Control.Lens hiding (uncons)
+import Data.Functor.Identity (runIdentity)
 import Control.Monad (guard, mplus)
 import Data.Array.IArray (IArray, array)
 import Data.Bits (Bits (..), FiniteBits (..), xor)
@@ -29,11 +28,12 @@ import Data.Set (Set)
 import Data.Set qualified as Set
 import Data.Void (Void)
 import Debug.Trace
-import GHC.IsList (IsList, Item (..))
+import GHC.IsList (IsList (..), Item (..))
 import Text.Megaparsec (Parsec)
 import Text.Megaparsec.Char (space)
 import Text.Megaparsec.Char.Lexer (decimal, signed)
 import Control.Applicative (Alternative (..))
+import GHC.Generics (Generic)
 
 calcLargeCycleN :: ([a] -> Maybe (Int, Int, a)) -> Int -> [a] -> Maybe a
 calcLargeCycleN f n xs = case f xs of
@@ -185,9 +185,7 @@ mapFirst f (a, c) = (f a, c)
 third :: (a, b, c) -> c
 third (_, _, x) = x
 
-data KnotList = KnotList {_focus :: Int, _list :: S.Seq Int} deriving (Show)
-
-makeLenses ''KnotList
+data KnotList = KnotList {_focus :: Int, _list :: S.Seq Int} deriving (Show, Generic)
 
 twistKnotList :: Int -> KnotList -> KnotList
 twistKnotList i (KnotList f l)
