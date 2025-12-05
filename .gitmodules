@@ -1,33 +1,43 @@
 [submodule "aoc2023"]
 	path = 2023
 	url = git@github.com:alex800121/aoc2023
+	branch = master
 [submodule "aoc2022"]
 	path = 2022
 	url = git@github.com:alex800121/aoc2022
+	branch = master
 [submodule "aoc2021"]
 	path = 2021
 	url = git@github.com:alex800121/aoc2021
+	branch = master
 [submodule "aoc2020"]
 	path = 2020
 	url = git@github.com:alex800121/aoc2020
+	branch = master
 [submodule "aoc2019"]
 	path = 2019
 	url = git@github.com:alex800121/aoc2019
+	branch = master
 [submodule "aoc2018"]
 	path = 2018
 	url = git@github.com:alex800121/aoc2018
+	branch = master
 [submodule "aoc2017"]
 	path = 2017
 	url = git@github.com:alex800121/aoc2017
+	branch = master
 [submodule "aoc2015"]
 	path = 2015
 	url = git@github.com:alex800121/aoc2015
+	branch = master
 [submodule "aoc2016"]
 	path = 2016
 	url = git@github.com:alex800121/aoc2016
+	branch = master
 [submodule "aoc2024"]
 	path = 2024
 	url = git@github.com:alex800121/aoc2024
+	branch = master
 [submodule "aoc2025"]
 	path = 2025
 	url = git@github.com:alex800121/AOC2025
