@@ -28,3 +28,7 @@
 [submodule "aoc2024"]
 	path = 2024
 	url = git@github.com:alex800121/aoc2024
+[submodule "aoc2025"]
+	path = 2025
+	url = git@github.com:alex800121/AOC2025
+	branch = master
