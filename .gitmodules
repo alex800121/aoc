@@ -42,3 +42,7 @@
 	path = 2025
 	url = git@github.com:alex800121/AOC2025
 	branch = master
+[submodule "AOC"]
+	path = AOC
+	url = git@github.com:alex800121/AOC-lib
+	branch = master

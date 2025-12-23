@@ -11,6 +11,8 @@ packages:
   2016/AOC2016.cabal,
   2015/AOC2015.cabal,
   AOC/AOC.cabal
+allow-newer: 
+  finito:transformers, holmes:all
 -- documentation: True
 -- haddock-all: True
 -- haddock-hyperlink-source: True
